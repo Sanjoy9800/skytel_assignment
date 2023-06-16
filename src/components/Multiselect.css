@@ -1,0 +1,41 @@
+.multiselect {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .selected-values {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-height: 30px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .dropdown.readonly {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .dropdown label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  
