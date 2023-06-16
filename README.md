@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[you can see my project by clicking over](https://skytel-tele-assignment.netlify.app)
 
 ## Available Scripts
 
